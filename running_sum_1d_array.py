@@ -1,13 +1,13 @@
 class Solution:
-  def running_sum(self, nums):
-    running_sum = []
-    running_num = 0
-    
-    for num in nums:
-        running_num += num
-        running_sum.append(running_num)
+    def running_sum(self, nums):
+        running_sum = []
+        running_num = 0
+
+        for num in nums:
+            running_num += num
+            running_sum.append(running_num)
         
-    return running_sum
+        return running_sum
 
 # Test cases
 
@@ -19,10 +19,12 @@ nums3 = [3, 1, 2, 10, 1]
 print('Input:    [1, 2, 3, 4]')
 print('Output:  ', sol.running_sum(nums1))
 print('Expected: [1, 3, 6, 10]')
+print('---')
 
 print('Input:    [1, 1, 1, 1, 1]')
 print('Output:  ', sol.running_sum(nums2))
 print('Expected: [1, 2, 3, 4, 5]')
+print('---')
 
 print('Input:    [3, 1, 2, 10, 1]')
 print('Output:  ', sol.running_sum(nums3))
