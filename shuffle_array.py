@@ -14,6 +14,8 @@ class Solution:
 
         return shuffled_array
 
+# Test cases
+
 sol = Solution()
 
 nums1 = [2, 5, 1, 3, 4, 7]

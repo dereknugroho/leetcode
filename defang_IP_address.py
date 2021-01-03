@@ -10,6 +10,7 @@ class Solution:
 
         return defanged_address
 
+# Test cases
 
 sol = Solution()
 

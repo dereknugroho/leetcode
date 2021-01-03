@@ -13,6 +13,8 @@ class Solution:
 
         return pair_count
 
+# Test cases
+
 sol = Solution()
 
 nums1 = [1, 2, 3, 1, 1, 3]

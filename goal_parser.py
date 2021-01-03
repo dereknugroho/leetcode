@@ -14,6 +14,8 @@ class Solution:
 
         return parsed
 
+# Test cases
+
 sol = Solution()
 
 command1 = 'G()(al)'

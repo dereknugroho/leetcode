@@ -13,6 +13,8 @@ class Solution:
 
         return can_have_greatest
 
+# Test cases
+
 sol = Solution()
 
 candies1 = [2, 3, 5, 1, 3]
