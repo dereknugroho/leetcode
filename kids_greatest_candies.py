@@ -14,23 +14,29 @@ class Solution:
         return can_have_greatest
 
 sol = Solution()
+
 candies1 = [2, 3, 5, 1, 3]
 extra1 = 3
+expected1 = [True, True, True, False, True]
+
 candies2 = [4, 2, 1, 1, 2]
 extra2 = 1
+expected2 = [True, False, False, False, False]
+
 candies3 = [12, 1, 12]
 extra3 = 10
+expected3 = [True, False, True]
 
-print('Input:    [2, 3, 5, 1, 3], 3')
-print('Output:  ', sol.kids_with_candies(candies1, extra1))
-print('Expected: [True, True, True, False, True]')
+print(f'Input:    {candies1}, {extra1}')
+print(f'Output:   {sol.kids_with_candies(candies1, extra1)}')
+print(f'Expected: {expected1}')
 print('---')
 
-print('Input:    [4, 2, 1, 1, 2], 1')
-print('Output:  ', sol.kids_with_candies(candies2, extra2))
-print('Expected: [True, False, False, False, False]')
+print(f'Input:    {candies2}, {extra2}')
+print(f'Output:   {sol.kids_with_candies(candies2, extra2)}')
+print(f'Expected: {expected2}')
 print('---')
 
-print('Input:    [12, 1, 12], 10')
-print('Output:  ', sol.kids_with_candies(candies3, extra3))
-print('Expected: [True, False, True]')
+print(f'Input:    {candies3}, {extra3}')
+print(f'Output:   {sol.kids_with_candies(candies3, extra3)}')
+print(f'Expected: {expected3}')
