@@ -2,8 +2,6 @@ class Solution:
     def num_jewels_in_stones(self, jewels, stones):
         count = 0
 
-        # Assume no duplicates in jewels
-
         for jewel in jewels:
             for stone in stones:
                 if jewel == stone:
