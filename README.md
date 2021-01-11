@@ -1,6 +1,6 @@
 # LeetCode
 
-This repository is a collection of solutions to [LeetCode](https://leetcode.com/) problems.
+This repository is a collection of solutions to [LeetCode](https://leetcode.com/problemset/all/) problems.
 
 Each file is a solution to a single LeetCode problem.
 
