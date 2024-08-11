@@ -1,10 +1,5 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
         index1, index2 = None, None
 
         for i, num1 in enumerate(nums):

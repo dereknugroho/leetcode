@@ -1,9 +1,5 @@
 class Solution(object):
     def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
         num, i = 0, 0
         while i < len(s):
             if s[i] == 'I':
